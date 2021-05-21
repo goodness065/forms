@@ -8,7 +8,7 @@
     <title>Document2</title>
 </head>
 <body>
-    <form>
+    <form id="form" onsubmit="matchPassword(event)" method="POST">
     <div id="main">
         <header>
                 <p  class="p-tag"><b>Sign Up</b></p>
@@ -17,11 +17,11 @@
         <main>
             <div id="form1">
                 <img type="image" src="./person.svg" class="main-image1">
-                <input type="text" placeholder="Full name" name="fname" id="fname" minlength="11" title="Enter full name with a minimum of 11 characters" required>
+                <input type="text" autofocus placeholder="Full name" name="fname" id="fname" minlength="11" title="Enter full name with a minimum of 11 characters" required>
             </div>
             <div id="form2">
                 <img type="image" src="email.svg" class="main-image2">
-                <input type="email" placeholder="Email" name="email" id="email" title="Enter email address" required>
+                <input type="email"  placeholder="Email" name="email" id="email" title="Enter email address" required>
             </div>
             <div id="form3">
                 <img type="image" src="lock-password-line.svg" class="main-image3">
@@ -29,8 +29,9 @@
             </div>    
             <div id="form4">
                 <img type="image" src="./lock-password-line.svg" class="main-image4">
-                <input type="password" placeholder="Confirm password" name="confirm" id="confirm" minlength="8" required>
+                <input type="password" placeholder="Confirm password" name="confirm" id="confirm" maxlength="8" required>
             </div>
+            <p class="hide"></p>
             <div id="signup">
                 <p ><input type="submit" value="SIGN UP" class="signup"></p>
             </div>

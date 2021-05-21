@@ -1,10 +1,19 @@
-let email =document.getElementById("email")
+// if (typeof(Storage) !== "undefined") {
+//     // Store
+//     localStorage.setItem("lastname", "Smith");
+//     // Retrieve
+//     document.getElementById("result").innerHTML = localStorage.getItem("lastname");
+//   } else {
+//     document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+//   }
 
-// email.addEventListener('focus', function(){
-//     document.getElementById("form1").style.border = "1px solid red"
-// })
 
-// email.addEventListener('blur', function(){
-//     document.getElementById("form1").style.border = "1px solid rgb(194, 206, 206)"
-// })
 
+
+
+
+
+
+
+
+  
